@@ -1,0 +1,294 @@
+body{
+		margin:0px;
+		padding:0px;
+	}
+		#nav{
+			width: 1903px;
+			height: 100px;
+		/*	border: 1px solid black;*/
+			
+			background-image: url(../images/imagesAll/24.png);
+		}
+		#nav1{
+			/*display: block;*/
+			/*border: 1px solid red;*/
+			padding-left: 630px;
+			line-height: 100px;
+			margin-left: -80px;
+		}
+		#nav1 a{
+			font-size: 17px;
+		}
+		#t1{
+			position: absolute;
+			top: 28px;
+			left: 1260px;
+		}
+		#t2{
+			position: absolute;
+			top: 20px;
+			left: 1435px;
+		}
+		 a{
+			text-decoration: none;
+			margin-right: 30px;
+			/*color: white;*/
+			margin-top: 15px;
+			color: white;
+		}
+		a:hover{
+			color: red;
+		}
+		#d1{
+			margin-top: 10px;
+			margin-left: 404px;
+			color: rgb(176,176,176);
+			margin-bottom: 30px;
+		}
+		.photos{
+			/*display: block;*/
+			width: 1100px;
+			height: 400px;
+			
+			margin: auto;
+			overflow: hidden;
+		}
+
+		/*#photos1{
+			width: 270px;
+
+
+		}*/
+		.i1{
+			
+			width: 270px;
+			height: 230px;
+			margin-right:50px;
+			margin-left:30px;
+			display: inline-block;
+			vertical-align: top;
+			font-size: 10px;
+		
+		}
+		.i1 span{
+			color: rgb(102,102,102);
+		}
+		.i2{
+			width: 270px;
+			height: 400px;
+			margin-right: 48px;
+			display: inline-block;
+			font-size: 10px;
+			
+		
+			
+		}
+		.i3{
+			width: 270px;
+			height: 400px;
+			display: inline-block;
+			vertical-align: top;
+			font-size: 10px;
+		}
+		.i4{
+			vertical-align: bottom;
+			width: 270px;
+			height: 400px;
+			margin-right: 50px;
+			display: inline-block;
+			font-size: 10px;
+		    color: rgb(102,102,102);
+		}
+		#nav11{
+			width: 1903px;
+			height: 300px;
+			background-color: rgb(51,49,50);
+			line-height: 250px;
+			display: block;
+			position: relative;
+		}
+		#copy{
+			color: white;
+			margin-left: 780px;
+			position: absolute;
+			top: 20px;
+			height: 15px;
+			font-size: 15px;
+		}
+		#nav11 span{
+			margin-left: 500px;
+		}
+		#nav11 span a{
+			font-weight: bold;
+			font-size: 15px;
+		}
+		.col{
+			color: rgb(102,102,102);
+		}
+		#page{
+			margin-left:620px;
+		}
+		#page span{
+			padding-left: 10px;
+			display: inline-block;
+			width: 50px;
+			height: 50px;
+			/*border: 1px solid red;*/
+			line-height: 50px;
+		}
+		#page input{
+			width: 50px;
+			height: 50px;
+		}
+
+		.page{
+			/*display: inline-block;*/
+			background-color: red;
+		}
+
+		.p1{
+			border: 1px solid gray;
+		}
+		#page span:hover{
+			width: 60px;
+			height: 50px;
+			background-color: red;
+		}
+		header,footer,section{
+			min-width:  1903px;
+		}
+		#lttk{
+			color: red;
+		}
+		.previous_page,.next_page{
+       	   border:1px solid rgb(223,223,223);
+       	   width:70px;
+       	   height:50px;
+       	   text-align: center;
+       	   line-height: 50px;
+       	   float:left;
+       }
+       li{
+       	list-style: none;
+       }
+       .one_page{
+       	   background-color: red;
+       	   width:40px;
+       	   height:50px;
+       	   text-align: center;
+       	   line-height: 50px;
+       	   color:white;
+       	     float:left;
+       }
+       .two_page{
+       	   width:40px;
+       	   height:50px;
+       	   text-align: center;
+       	   line-height: 50px;
+       	     float:left;
+       }
+       .three_page{
+       	   width:40px;
+       	   height:50px;
+       	   text-align: center;
+       	   line-height: 50px;
+       	     float:left;
+       }
+       .four_page{
+       	   width:40px;
+       	   height:50px;
+       	   text-align: center;
+       	   line-height: 50px;
+       	     float:left;
+       }
+       .five_page{
+       	   width:40px;
+       	   height:50px;
+       	   text-align: center;
+       	     float:left;
+       	   line-height: 50px;
+       }
+       .fourteen_page{
+       	   width:40px;
+       	   height:50px;
+       	   text-align: center;
+       	   line-height: 50px;
+       	     float:left;
+       }
+       .page1,.page2{
+       	   width:40px;
+       	   height:50px;
+       	   text-align: center;
+       	   line-height: 50px;
+       	     float:left;
+       }
+       #pages input,.page3{
+       	   border:1px solid rgb(223,223,223);
+       	   width:40px;
+       	   height:50px;
+       	   text-align: center;
+       	   line-height: 50px;
+       	     float:left;
+       }
+       ul{
+       	margin-left:600px;
+       }
+       table li{
+       	  float:left;
+       	  margin-left: 30px;
+       	    float:left;
+       }
+       #zi1{
+       	color: rgb(51,49,50);
+       }
+        .two_page:hover{
+            color: white;
+   	    	width:40px;
+   	    	height:50px;
+    	   	background-color: red;
+       }
+        .three_page:hover{
+			color: white;
+   	    	width:40px;
+     	  	height:50px;
+      	 	background-color: red;
+       }
+        .four_page:hover{
+        	 color: white;
+             width:40px;
+       	     height:50px;
+       	     background-color: red;
+       }
+       .five_page:hover{
+        	color: white;
+        	width:40px;
+        	height:50px;
+        	background-color: red;
+       }
+       .fourteen_page:hover{
+            color: white;
+        	width:40px;
+        	height:50px;
+        	background-color: red;
+       }
+       .previous_page:hover{
+            color: white;
+        	width:70px;
+        	height:50px;
+        	background-color: red;
+       }
+       .i1 a{
+     	  	color: rgb(0,0,0);
+       }
+       .i2 a{
+       	   	color: rgb(0,0,0);
+       }
+       .i3 a{
+       	   	color: rgb(0,0,0);
+       }
+       .i4 a{
+       		color: rgb(0,0,0);
+       }
+       #xw{
+       	color: red;
+       }

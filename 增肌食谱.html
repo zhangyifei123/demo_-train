@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+<link rel="stylesheet" href="css/css.a/增肌食谱.css">
+	 <script>
+    var i =1;
+    window.onload = function(){
+    var prev = document.getElementById('previousPage');
+    var next = document.getElementById('nextPage');
+    var li = document.getElementById('page').children;
+    li[1].style.backgroundColor = "red";
+    prev.style.backgroundColor = 'gray';
+      prev.onclick = function(){
+        next.style.backgroundColor = 'transparent';
+        if(i==1){
+          prev.setAttribute('disabled','');
+          prev.style.backgroundColor = 'gray';
+        }else{
+          prev.removeAttribute('disabled');
+          prev.style.backgroundColor = 'transparent';
+          i--;
+          if(i == 1){
+            prev.setAttribute('disabled','');
+            prev.style.backgroundColor = 'gray';
+          }
+        }
+        li[i+1].style.backgroundColor = 'transparent';
+        li[i].style.backgroundColor = 'red';
+      }
+      next.onclick = function(){
+        prev.style.backgroundColor = 'transparent';
+        if(i == li.length-3){
+          next.setAttribute('disabled','');
+          next.style.backgroundColor = 'gray';  
+        }else{
+          next.removeAttribute('disabled');
+          next.style.backgroundColor = 'transparent';
+          i++;
+          if(i == li.length-3){
+            next.setAttribute('disabled','');
+            next.style.backgroundColor = 'gray';
+          }
+        }
+        li[i-1].style.backgroundColor = 'transparent';
+        li[i].style.backgroundColor = 'red';
+      }
+    }
+    function clickIt(ele){
+        var prev = document.getElementById('previousPage');
+        var next = document.getElementById('nextPage');
+        var li = document.getElementById('page').children;
+        for(var n = 1;n < li.length-2;n++){
+          if(ele == li[n]){
+            i = n;
+            ele.style.backgroundColor = 'red';
+          }else{
+            li[n].style.backgroundColor = 'transparent';
+          }
+        }
+        if(i == 1){
+          prev.style.backgroundColor = 'gray';
+          prev.setAttribute('disabled','');
+        }else{
+          prev.style.backgroundColor = 'transparent';
+          prev.removeAttribute('disabled');
+        }
+        if(i == li.length-3){
+          next.style.backgroundColor = 'gray';
+          next.setAttribute('disabled','');
+        }else{
+          next.style.backgroundColor = 'transparent';
+          next.removeAttribute('disabled');
+        }
+      }
+  </script>
+</head>
+<body>
+	<div id="nav">
+		
+		<span  id="nav1"> 
+			<a href="首页.html">首页</a>
+			<a href="减脂塑形.html"> 减脂塑形 </a>
+			<a href="增肌增重.html"> 增肌增重 </a>
+			<a href="训练计划.html"> 训练计划 </a>  
+			<a href="健身食谱.html" class="a">	健身食谱 </a> 
+			<a href="新闻资讯.html"> 新闻资讯 </a>  
+			<a href="论坛图库.html"> 论坛图库 </a>
+			</span>
+			<span id="t4">&nbsp;&nbsp;&nbsp;
+			<a href="登录.html"><!--  <img src="26.png" alt=""> -->登录</a>
+			<a href="注册.html">注册<!-- <img src="27.png" alt=""> --></a>
+			</span>
+			<a href=""><img src="images/image/1.png" alt="" id="t1"></a>
+			<a href="个人中心.html"><img src="images/image/2.png" alt="" id="t2"></a>
+			 </nav>
+</header>
+
+<br>
+<br>
+<br>
+<br>
+<section>
+ <br>
+<div class="pst">当前位置>健身食谱>菜谱</div>
+<h1><a href="" class="a1">增肌食谱</a></h1>
+    <div class="headed">
+        <img src="images/imagephoto/1_03.png" alt="" class="hadimg">
+        <span class="cent">“三分运动，七分饮食”，在健身中增肌的过程中，饮食对于增肌的本身来说占有十分重要的比重，通过合理的饮食安排，能够增加自身的体重，在健身运动的帮助下，很好的增肌变成健美的身体体型</span>         
+	</div>
+	<div>
+	<p class="explain">
+	作为健身健美人群，蛋白质对我们来说可以说是排在第一位的，没有中举的蛋白质，肌肉就没有办法<br><br>&nbsp;呗高强度训练破会后获得足够的营养来修复它。
+	在健身中增肌的过程中，饮食对于增肌本身来说占有<br><br>&nbsp;十分重要的比重通过合理的饮食安排，能够增加自身的体重，在健身运动的帮助下，很好的增肌变成健美<br><br>&nbsp;的身体体型。下面，健康饮食文化介绍的事关于健身增肌的食谱，这一周的饮食计划，对于你的增肌进程<br><br>&nbsp;有十分大的促进作用哦。
+	</p>
+	</div>
+	<div><img src="images/imagephoto/0410-菜谱_03.png" alt="" class="Recipe"></div>
+	<h3>增肌食品一周计划表</h3>
+	<h5>第一天</h5>
+	<table>
+		<tr class="one">
+			<td>第一餐</td>
+			<td>第二餐</td>
+			<td>第三餐</td>
+			<td>第四餐</td>
+		</tr>
+		<tr>
+			<td>2片培根，4个鸡蛋</td>
+			<td>半个中等大小西红柿</td>
+			<td>226克三文鱼</td>
+			<td>4颗树莓</td>
+		</tr>
+		<tr>
+			<td>半个中等大小柿子椒</td>
+			<td>2汤匙松仁</td>
+			<td>8根芦笋嫩茎</td>
+			<td>半杯干酪</td>
+		</tr>
+		<tr>
+			<td>1/4中等大小洋葱</td>
+			<td>1/4中等大小洋葱</td>
+			<td>1/3杯树莓</td>
+			<td>3汤匙淡奶油</td>
+		</tr>
+		<tr>
+			<td>1杯干酪</td>
+			<td>1汤匙橄榄油</td>
+			<td>170克去皮鸡胸肉</td>
+			<td></td>
+		</tr>
+
+	</table>
+	<br>
+	<br>
+	<h5>第二天</h5>
+	<table>
+	<tr class="one">
+			<td>第一餐</td>
+			<td>第二餐</td>
+			<td>第三餐</td>
+			<td>第四餐</td>
+		</tr>
+		<tr>
+			<td>4个鸡蛋</td>
+			<td>170克牛排</td>
+			<td>1勺乳清蛋白</td>
+			<td>85克白菜</td>
+		</tr>
+		<tr>
+			<td>2汤匙沙拉酱</td>
+			<td>2汤匙松仁</td>
+			<td>8根芦笋嫩茎</td>
+			<td>半杯干酪</td>
+		</tr>
+		<tr>
+			<td>1/4中等大小洋葱</td>
+			<td>1/4中等大小洋葱</td>
+			<td>1/3杯树莓</td>
+			<td>3汤匙淡奶油</td>
+		</tr>
+		<tr>
+			<td>1杯干酪</td>
+			<td>1汤匙橄榄油</td>
+			<td></td>
+			<td>3个鸡大腿</td>
+		</tr>
+	</table>
+	<br>
+	<br>
+	<h5>第三天</h5>
+	<table>
+	<tr class="one">
+			<td>第一餐</td>
+			<td>第二餐</td>
+			<td>第三餐</td>
+			<td>第四餐</td>
+		</tr>
+		<tr>
+			<td>2片培根，4个鸡蛋</td>
+			<td>半个中等大小西红柿</td>
+			<td>226克三文鱼</td>
+			<td>4颗树莓</td>
+		</tr>
+		<tr>
+			<td>半个中等大小柿子椒</td>
+			<td>2汤匙松仁</td>
+			<td>8根芦笋嫩茎</td>
+			<td>半杯干酪</td>
+		</tr>
+		<tr>
+			<td>1/4中等大小洋葱</td>
+			<td>1/4中等大小洋葱</td>
+			<td>1/3杯树莓</td>
+			<td>3汤匙淡奶油</td>
+		</tr>
+		<tr>
+			<td>1杯干酪</td>
+			<td>1汤匙橄榄油</td>
+			<td></td>
+			<td>1汤匙无盐黄油</td>
+		</tr>
+	</table>
+	<br>
+	<br>
+	<h5>第四天</h5>
+	<table>
+	<tr class="one">
+			<td>第一餐</td>
+			<td>第二餐</td>
+			<td>第三餐</td>
+			<td>第四餐</td>
+		</tr>
+		<tr>
+			<td>2片培根，4个鸡蛋</td>
+			<td>半个中等大小西红柿</td>
+			<td>226克三文鱼</td>
+			<td>4颗树莓</td>
+		</tr>
+		<tr>
+			<td>半个中等大小柿子椒</td>
+			<td>2汤匙松仁</td>
+			<td>8根芦笋嫩茎</td>
+			<td>半杯干酪</td>
+		</tr>
+		<tr>
+			<td>1/4中等大小洋葱</td>
+			<td>1/4中等大小洋葱</td>
+			<td>1/3杯树莓</td>
+			<td>3汤匙淡奶油</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>170克去皮鸡胸肉</td>
+			<td></td>
+		</tr>
+	</table>
+	<br>
+	<br>
+	<h5>第五天</h5>
+	<table>
+	<tr class="one">
+			<td>第一餐</td>
+			<td>第二餐</td>
+			<td>第三餐</td>
+			<td>第四餐</td>
+		</tr>
+		<tr>
+			<td>1杯全脂酸奶</td>
+			<td>2杯小菠菜，2颗草莓</td>
+			<td>1/4干酪</td>
+			<td>200颗牛排</td>
+		</tr>
+		<tr>
+			<td>1勺班乳清蛋白</td>
+			<td>3汤匙切碎的洋葱</td>
+			<td>半个蜜桔</td>
+			<td>半个中等大小洋葱</td>
+		</tr>
+		<tr>
+			<td>1/4中等大小洋葱</td>
+			<td>1/4中等大小洋葱</td>
+			<td>1/3杯树莓</td>
+			<td>3汤匙淡奶油</td>
+		</tr>
+		<tr>
+			<td>1杯干酪</td>
+			<td>1汤匙橄榄油</td>
+			<td>170克去皮鸡胸肉</td>
+			<td>1汤匙菜籽油</td>
+		</tr>
+	</table>
+	<div class="Collection">
+	    <a href=""><img src="images/imagephoto/-菜谱.jpg" alt=""></a>
+	    <a href=""><img src="images/imagephoto/-菜谱1.jpg" alt=""></a>
+	</div>
+	<br>
+	<div class="Comment"><h2>1042条评论</h2></div>
+	<br>
+	<p class="leave">
+	    <img src="images/imagephoto/-菜谱2.jpg" alt="">
+	    &nbsp;
+	   <textarea cols="160" rows="6" placeholder="请发表您的观后感吧~~"></textarea>
+	</p>
+	<div>
+	      <a href=""><img src="images/imagephoto/-菜谱3.jpg" alt="" class="Expression"></a>
+	      <input type="button" value="发表" class="Published">
+	</div>
+	<br>
+	<hr class="Segmentation" >
+	<br>
+	<h3>热门评论</h3>
+	<br>
+	<div class="round"></div>
+	<span class="c">
+	小宇宙///&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;视频每个动作都很详细，我每天都有跟着做的，真的真的有很大的改善，小伙伴们可以到我晒的图片
+    </span>
+    <span class="Collection">
+          <a href="" ><img src="images/imagephoto/菜谱5.jpg" alt="" ></a>
+          <a href="" class="Reply">回复</a>
+    </span>
+    <br>
+    <br>
+    <div class="round"></div>
+	<span class="c">
+	小宇宙///&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;视频每个动作都很详细，我每天都有跟着做的，真的真的有很大的改善，小伙伴们可以到我晒的图片
+    </span>
+    <span class="Collection">
+          <a href="" ><img src="images/imagephoto/菜谱4.jpg" alt="" ></a>
+          <a href="" class="Reply">回复</a>
+    </span>
+      <br>
+    <br>
+    <div class="round"></div>
+	<span class="c">
+	小宇宙///&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;视频每个动作都很详细，我每天都有跟着做的，真的真的有很大的改善，小伙伴们可以到我晒的图片
+    </span>
+    <span class="Collection">
+          <a href="" ><img src="images/imagephoto/菜谱4.jpg" alt="" ></a>
+          <a href="" class="Reply">回复</a>
+    </span>
+      <br>
+    <br>
+    <div class="round"></div>
+	<span class="c">
+	小宇宙///&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;视频每个动作都很详细，我每天都有跟着做的，真的真的有很大的改善，小伙伴们可以到我晒的图片
+    </span>
+    <span class="Collection">
+          <a href="" ><img src="images/imagephoto/菜谱4.jpg" alt="" ></a>
+          <a href="" class="Reply">回复</a>
+    </span>
+      <br>
+    <br>
+    <h3>热门评论</h3>
+   <div class="crd">
+       <div class="round"></div>
+	<span class="c">
+	小宇宙///&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;视频每个动作都很详细，我每天都有跟着做的，真的真的有很大的改善，小伙伴们可以到我晒的图片
+    </span>
+    <span class="Collection">
+          <a href="" ><img src="images/imagephoto/菜谱4.jpg" alt="" ></a>
+          <a href="" class="Reply">回复</a>
+    </span>
+      <br>
+    <br>
+    <div class="round"></div>
+	<span class="c">
+	小宇宙///&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;视频每个动作都很详细，我每天都有跟着做的，真的真的有很大的改善，小伙伴们可以到我晒的图片
+    </span>
+    <span class="Collection">
+          <a href="" ><img src="images/imagephoto/菜谱4.jpg" alt="" ></a>
+          <a href="" class="Reply">回复</a>
+    </span>
+      <br>
+    <br>
+    <div class="round"></div>
+	<span class="c">
+	小宇宙///&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;视频每个动作都很详细，我每天都有跟着做的，真的真的有很大的改善，小伙伴们可以到我晒的图片
+    </span>
+    <span class="Collection">
+          <a href="" ><img src="images/imagephoto/菜谱4.jpg" alt="" ></a>
+          <a href="" class="Reply">回复</a>
+    </span>
+   </div>
+         <br>
+         <br>
+         <br>
+         <div class="cdd">
+    <ul id="page">
+    <li id="previousPage">上一页</li>
+    <li id="page1" onclick="clickIt(this)">1</li>
+    <li id="page2" onclick="clickIt(this)">2</li>
+    <li id="page3" onclick="clickIt(this)">3</li>
+    <li id="page4" onclick="clickIt(this)">4</li>
+    <li id="page5" onclick="clickIt(this)">5</li>
+    <li id="abc">...</li>
+    <li id="nextPage">下一页</li>
+  </ul>
+      </div>
+       <br>
+       <br>
+       <br>
+</section>
+<br>
+<br>
+<br>
+<br>
+<footer >
+   <div class="foot">
+                  
+         <a href="" class="rgb1">广告服务</a>
+         <a href=""  class="rgb1">关于我们</a>
+         <a href=""  class="rgb1">sitemap</a>
+         <a href=""  class="rgb1">联系方式</a>
+         <a href=""  class="rgb1">友情链接</a>
+         <a href=""  class="rgb1">媒体中心</a>
+         <a href=""  class="rgb1">sitemapxml</a>
+         <a href=""  class="rgb1">公司资质</a>
+         <a href=""  class="rgb1">加入我们</a>
+         <br>
+         <br>
+         <br>
+         <p class="rgb2">Copyright 2013 muscles.com.cn 版权所有 蜀ICP备13017676号-1</p>
+ </div>
+
+ </footer>
+		
+</body>
+<html>

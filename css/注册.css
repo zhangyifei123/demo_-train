@@ -1,0 +1,120 @@
+     body{
+        padding: 0;
+        margin: 0;
+      }
+      header{
+        min-width: 1900px;
+      }
+	    #logo{
+	    	width:100%;
+	    	height:900px;
+	    	background-image:url(../images/image/n.png);
+	    	background-repeat: no-repeat;
+	    }
+	    #logo img{
+	    	margin:50px 350px;
+	    }
+	    #black{
+	    	width:450px;
+	    	height:450px;
+	    	background-color: black;
+        margin:-40px 700px;
+        position:relative;
+        top:40px;
+        right:700px;
+        opacity:0.6;
+	    }
+	    #cover{
+	    	width:450px;
+	    	height:450px;
+        margin:-99px 700px;
+	    }
+	    table{
+	    	width:450px;
+	    	height:450px;
+	    	background-color: transparent;
+	    	position: relative;
+        top:-370px;
+	    }
+	    .size1{
+	    	font-weight: bold;
+	    	font-size: 30px;
+	    	margin: 100px;
+	    	color: white;
+	    }
+	    table a{
+    		color:white;
+    		font-weight: bold;
+	    }
+	    input{
+	    	width: 250px;
+	    	height: 40px;
+        margin-left:45px;
+        background-color: transparent;
+        padding:0px 40px;
+        color:white;
+        font-size:10px;
+	    }
+	   .red2{
+          background-color:rgb(215,38,44);
+          border-radius: 3px;
+          /*padding: 15px 150px;*/
+          margin-left: 45px;
+          width:330px;
+          height:45px;
+          border:none;
+          color:white;
+          font-size: 20px;
+          font-weight: bold;
+       }
+      .red2:hover{
+          color:gray;
+       }
+       .red3:hover{
+          color:gray;
+       }
+       .head1{
+          background-image: url(../images/image/20.png);
+          background-repeat: no-repeat;
+          background-position: left center;
+       }
+       .head2{
+          background-image: url(../images/image/21.png);
+          background-repeat: no-repeat;
+          background-position: left center;
+       } 
+	    .foot{
+         width: 1300px;
+         height: 200px;
+    	   padding-top: 100px;
+    	   padding-left: 450px;
+    	   font-weight: bold;
+    	   margin-top: 230px;
+       }
+      .rgb1{
+      	 color: white;
+       	 text-decoration: none;
+   	     margin-left: 20px;
+       }
+      .rgb2{
+     	   color: white;
+         text-decoration: none;
+     	   margin-left: 250px;
+      }
+      .red3{
+          background-color:rgb(215,38,44);
+          border-radius: 3px;
+          padding: 15px 5px;
+          margin-left: 10px;
+       }
+       .obtain{
+          width:80px;
+          height:40px;
+       }
+      a{
+      	 text-decoration: none;
+      }
+      a:hover{
+			  color: red;
+
+		}

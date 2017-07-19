@@ -1,0 +1,91 @@
+    nav{
+        width:1603px;
+        height:100px;
+        background-color: black;
+        padding-left: 300px;
+        overflow: hidden;
+      }
+      ul{
+         list-style-type: none; 
+         margin-left:200px;
+
+        }
+      nav li{
+        float: left; 
+        margin-left: 30px;
+        color: red;
+        }
+      .enter{
+          margin-top: 15px;
+          margin-left:50px;
+        }
+      .enroll{
+          margin-top: 7px;
+          width:50px;
+          /*margin-left:10px;*/
+        }
+       nav a{
+          text-decoration: none;
+          line-height: 75px;
+          color:white;
+        }
+        a:hover{
+          color:red;
+        }
+        img{
+          float: left;
+          margin-top: 20px;
+        }
+		.pst{
+		color: rgb(170,170,170);
+		padding-left: 200px;
+	}
+	#d1{
+        color:red;
+	}
+	.phot{
+		width: 900px;
+		height: 1000px;
+		margin-left:500px;
+		margin-top: 50px;
+	}
+	.sie{
+		width: 1400px;
+		height:1650px;
+		margin-left:50px;
+		letter-spacing: 2px;
+		font-weight: bold;
+		color: rgb(170,170,170);
+		position: relative;
+		top:100px;
+		left:300px;
+	}
+	  .rgb1{
+   	        color: white;
+   	        text-decoration: none;
+   	        position: relative;
+   	        left: 150px;
+ 			padding-left: 20px;
+   }
+      .rgb2{
+   	       color: white;
+           text-decoration: none;
+            margin-left: 330px;
+            margin-top:-20px;
+       	 
+   }
+      .foot{
+     	   width: 1552px;
+   	       height: 200px;
+   	       background-color: black; 
+   	       padding-top: 150px;
+   	       padding-left: 350px;
+   	       font-weight: bold;
+   	      
+
+   }
+   body{
+   	min-width: 1800px;
+   		padding: 0;
+       	margin:0;
+   }

@@ -1,0 +1,322 @@
+body{
+			margin: 0px;
+			padding: 0px;
+		}
+		nav{
+			min-width: 1902px;
+		}
+		section{
+			min-width: 1833px;
+			background-color: black;
+			width: 1833px;
+			padding: 35px;
+			overflow: hidden;
+			
+		}
+		#top{
+			width: 1252px;
+			height: 750px;
+			background-image: url(../images/1syt.png);
+			font-size: 15px;
+			padding-top: 38px;
+			padding-left:650px;
+		}
+		
+		#top a{
+			text-decoration: none;
+			color:white;
+			padding: 3px;
+			width: 50px;
+			height:20px;
+			padding: 10px;
+			font-size: 17px;
+		}
+		#top a:hover{
+			color: red;
+		}
+		#top span{
+			margin-left: -28px;
+		}
+		#d1{
+			position: absolute;
+			top:38px;
+			left:1345px;
+		}
+		#d2 {
+			padding-left: 150px;
+		}
+		#d2 a:hover{
+			color: red;
+		}
+		#d3{
+			position: absolute;
+			top:38px;
+			left:1515px;
+		}
+		h1{
+			font-size: 50px;
+			color: white;
+			margin-top:360px;
+			margin-left: -60px;
+		}
+		h4{
+			color: white;
+			text-align:center;
+			margin-left:-600px;
+		}
+		section h2{
+			font-size: 35px;
+			text-align:center;			
+		}
+		section a{
+			color: white;
+			text-decoration: none;
+			border-bottom: 2px solid red;
+			padding-bottom: 5px;
+		}
+		section h4{
+			color: white;
+			margin: 0px;
+			margin-top: -20px;
+			margin-bottom: -150px;
+		}
+		#yydl{
+			width: 550px;
+			height: 550px;
+			background-image: url(../images/1yydl.jpg);
+			margin-top:200px;
+			float: left;
+			margin-left: 360px;
+		}
+		#yydl1{
+			font-size: 30px;
+			color: white;
+			margin-top:200px;
+			margin-left:200px;
+			font-weight: bold;
+			margin-bottom: 40px;
+		}
+		#yydl span{
+			width: 300px;
+			height: 60px;
+			border: 2px solid white;
+			font-size: 18px;
+			padding: 15px 50px;
+			color: white;
+			font-weight: bold;
+			margin-left: 175px;
+		}
+		#sxjh{
+			width: 550px;
+			height: 550px;
+			background-image: url(../images/1sxjh.jpg);
+			margin-left: 920px;
+			margin-top: 200px;
+			border: 1px solid black;
+			
+		}
+		#sxjh1{
+			width: 150px;
+			font-size: 30px;
+			color: white;
+			margin-top: 200px;
+			margin-left:200px;
+			font-weight: bold;
+			margin-bottom: 40px;
+		}
+		#sxjh span{
+			width: 300px;
+			height: 60px;
+			border: 2px solid white;
+			font-size: 18px;
+			padding: 15px 50px;
+			color: white;
+			font-weight: bold;
+			margin-left: 175px;
+		}
+		#jfxd{
+			width: 550px;
+			height: 550px;
+			background-image: url(../images/1jfxd.jpg);
+			margin-left: 360px;
+			margin-top: 15px;
+			border: 1px solid black;
+			float: left;
+		}
+		#jfxd1{
+			width: 150px;
+			font-size: 30px;
+			color: white;
+			margin-top: 200px;
+			margin-left:200px;
+			font-weight: bold;
+			margin-bottom: 40px;
+		}
+		#jfxd span{
+			width: 300px;
+			height: 60px;
+			border: 2px solid white;
+			font-size: 18px;
+			padding: 15px 50px;
+			color: white;
+			font-weight: bold;
+			margin-left: 175px;
+		}
+		#jfff{
+			width: 550px;
+			height: 550px;
+			background-image: url(../images/1jfff.jpg);
+			margin-left: 920px;
+			margin-top: 15px;
+			border: 1px solid black;
+		}
+		#jfff1{
+			width: 150px;
+			font-size: 30px;
+			color: white;
+			margin-top: 200px;
+			margin-left:200px;
+			font-weight: bold;
+			margin-bottom: 40px;
+		}
+		#jfff span{
+			width: 300px;
+			height: 60px;
+			border: 2px solid white;
+			font-size: 18px;
+			padding: 15px 50px;
+			color: white;
+			font-weight: bold;
+			margin-left: 175px;
+		}
+		#jfff a{
+			text-decoration: none;
+		}
+		#d4{
+			margin-top: 200px;
+			margin-left: 360px;
+		}
+		#d4 .c2{
+			width: 570px;
+			height: 380px;
+			background-color: white;
+			border: 1px solid black;
+		}
+		.c2 #d5{
+			font-size: 30px;
+			font-weight: bold;
+			color: rgb(50,50,50);
+			margin-top: 135px;
+			text-align: center;
+		}
+		.c2 #d6{
+			font-size: 25px;
+			font-weight: bold;
+			color: rgb(102,102,102);
+			text-align: center;
+			margin-top:10px;
+		}
+		.c2 #d7{
+			width: 200px;
+			height: 40px;
+			border: 2px solid black;
+			text-align: center;
+			margin-top: 10px;
+			line-height: 40px;
+			margin-left: 185px;
+			color: rgb(52,52,52);
+		}
+		#d8{
+			width: 1210px;
+			height: 470px;
+			background-image: url(../images/1zb.png);
+			margin-left: 300px;
+			border: 1px solid black;
+		}
+		#d9{
+			text-align: center;
+			margin-top: 150px;
+			font-size: 40px;
+		}
+		#d10{
+			text-align: center;
+			margin-top: 10px;
+			font-size: 21px;
+			color: white;
+		}
+		#d11{
+			text-align: center;
+			color: rgb(153,153,153);
+			margin-top: 30px;
+			font-size: 30px;
+		}
+		#d12{
+			width:200px;
+			height: 50px;
+			border: 2px solid white;
+			font-size: 20px;
+			text-align: center;
+			margin-top: 50px;
+			line-height: 50px;
+			margin-left: 505px;
+		}
+		#t1{
+			margin-left:360px;
+			margin-top: 70px;
+		}
+		#t1 td{
+			width: 570px;
+			height: 380px;
+			
+		}
+		#t1 #d13{
+			text-align: center;
+			margin-top: -20px;
+			color: white;
+			font-size: 40px;
+		}
+		#t1 #d14{
+			text-align: center;
+			margin-top: 10px;
+			color: white;
+			font-size: 21px;
+		}
+		#t1 #d15{
+			text-align: center;
+			margin-top: 20px;
+			color: white;
+			font-size: 28px;
+		}
+		#t1 #d16{
+			width: 180px;
+			height: 40px;
+			border: 2px solid white;
+			text-align: center;
+			line-height: 40px;
+			margin-left: 190px;
+			margin-top: 30px;
+		}
+		#foot{
+			text-align: center;
+			margin-top: 300px;
+		}
+		#foot span{
+			padding:0px 15px;
+			font-size: 14px;
+			color: white;
+
+		}
+		#foot span a{
+			border:none;
+		}
+		section .c1 a{
+			border: none;
+		}
+		#foot1{
+			color: white;
+			font-size: 14px;
+			margin-top: 15px;
+		}
+		#top #hs{
+			color: red;
+		}

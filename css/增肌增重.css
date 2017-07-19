@@ -1,0 +1,254 @@
+body{
+		margin:0px;
+		padding:0px;
+	}
+		#background{
+			width: 1903px;
+			height: 680px;
+			background-image: url(../images/imagesAll/背景_02.png);
+
+		}
+		#nav{
+			width: 1903px;
+			height: 100px;
+
+		}
+		#nav1{
+			/*display: block;*/
+			/*border: 1px solid red;*/
+			padding-left: 630px;
+			line-height:90px;
+			margin-left: -100px;
+		}
+		#nav1 a{
+			font-size: 17px;
+		}	
+		#t1{
+			position: absolute;
+			top: 20px;
+			left: 1250px;
+			width:60px;
+			height:60px;
+		}
+		#t2{
+			position: absolute;
+			top: 10px;
+			left: 1450px;
+			width:60px;
+			height:70px;
+		}
+		a{
+			color: white;
+			text-decoration: none;
+		}
+		#word{
+			width: 550px;
+			height: 300px;
+			/*border: 1px solid red;*/
+			color: white;
+			position: absolute;
+			top: 200px;
+			left: 400px;
+			padding-bottom: 15px;
+			
+		}
+		#word span{
+			border-bottom: 2px solid red;
+			padding-bottom: 10px;
+		}
+		#border{
+			width: 305px;
+			height: 340px;
+			border:2px solid white;
+			position: absolute;
+			left: 600px;
+		}
+		#pho{
+			position: absolute;
+			left: 650px;
+			top: 260px;
+		}
+		#photob{
+			margin-top: 340px;
+			margin-left: 680px;
+		}
+		.pho1{
+			height:427px;
+			width: 750px;
+			background-image: url(../images/imagesAll/31.png);
+			margin:auto;
+		}
+		.word2{
+			margin-left: 1090px;
+			color: rgb(102,102,102);
+		}
+		.border1{
+			color: rgb(102,102,102);
+			margin-left: 1170px;
+			width: 115px;
+			height: 50px;
+			line-height: 50px;
+			padding-left: 30px;
+			border:1px solid gray;
+		}
+		#border2{
+			width: 150px;
+			height: 50px;
+			color: black/*rgb(102,102,102)*/;
+			padding-left: 150px;
+			border:1px solid red;
+		}
+		.pho2{
+			height:427px;
+			width: 750px;
+			background-image: url(../images/imagesAll/7.png);
+			margin:auto;
+		}
+		.border1 a{
+			color: rgb(102,102,102);
+		}
+		#four{
+			width: 850px;
+			height: 710px;
+			border:1px solid gray;
+			margin:auto;
+
+		}
+		#four div{
+			width: 420px;
+			height: 350px;
+			/*border: 1px solid red;*/
+		/*	display: inline-block;*/
+			float: left;
+		}
+		/*#four img{
+			width: 420px;
+			height: 350px;
+		}*/
+		#word3{
+			width: 4200px;
+			height: 350px;
+			font-size: 10px;
+			color: rgb(102,102,102);
+			text-align:center;
+			/*padding-right: 10px;*/
+		}
+		#word4{
+			width: 4200px;
+			height: 350px;
+			font-size: 10px;
+			color: rgb(102,102,102);
+			text-align:center;
+
+			/*margin-left:35px;*/
+			/*padding-right: 10px;*/
+		}
+		.img{
+			width: 420px;
+			height: 350px;
+
+		}
+		#border3{
+			border: 4px solid black;
+			width: 200px;
+			height: 60px;
+			border-top: none;
+			margin-left:820px;
+		}
+		#three{
+			width: 1000px;
+			height: 350px;
+			/*border: 1px solid black;*/
+			margin-left: 450px;
+
+		}
+		#tu1{
+			width: 300px;
+			height: 300px;
+			/*border: 1px solid red;*/
+			background-image: url(../images/imagesAll/3.png);
+			background-position: left top;
+			display: inline-block;
+			margin-right: 20px;
+			margin-left:20px;
+			vertical-align: top;
+		}
+		#tu2{
+			width: 300px;
+			height: 300px;
+			/*border: 1px solid red;*/
+			background-image: url(../images/imagesAll/4.png);
+			display: inline-block;
+			margin-right: 20px;
+
+		}
+		#tu3{
+			width: 300px;
+			height: 300px;
+			/*border: 1px solid red;*/
+			background-image: url(../images/imagesAll/3.png);
+			display: inline-block;
+		}
+		.shadow{
+			margin-top: 230px;
+			width: 300px;
+			height: 70px;
+			background-color: black;
+			opacity: 0.6;
+		}
+		.span{
+			margin-left: 50px;
+			line-height: 70px;
+			/*border: 1px solid red;*/
+			color: white;
+			font-size: 20px;
+		}
+		#nav11{
+			width: 1903px;
+			height: 300px;
+			background-color: rgb(51,49,50);
+			line-height: 250px;
+			display: block;
+			position: relative;
+		}
+		#copy{
+			color: white;
+			margin-left: 780px;
+		/*	border: 1px solid red;*/
+			height: 15px;
+			position: absolute;
+			top: 20px;
+		}
+		#nav11 span{
+			margin-left: 500px;
+		}
+		#nav11 span a{
+			font-weight: bold;
+		}
+		a:hover{
+			color: red;
+		}
+		header,footer,section{
+			min-width:  1903px;
+		}
+		#know a{
+			color: gray;
+			font-size: 25px;
+			padding:10px;
+			margin-left: 35px;
+			/*margin-top: 20px;*/
+			border: 1px solid gray;
+
+		}
+		#know1 a{
+			color: gray;
+			font-size: 25px;
+			padding:10px;
+			margin-left: 5px;
+			/*margin-top: 20px;*/
+			border: 1px solid gray;
+
+		}
+		#zjzz{
+			color: red;
+		}

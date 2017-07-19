@@ -1,0 +1,297 @@
+/*  *{
+  	border:1px solid blue;
+  }*/
+  #nav{
+      width: 1800px;
+      height: 100px;
+      
+      background-image: url(../../images/imagephoto/未标题-2.png);
+    }
+    #nav1{
+      padding-left: 630px;
+      line-height: 100px; 
+    } 
+    #num1{
+    	position: relative;
+    	left:-45px;
+    }
+    #nav1 a{
+      position: relative;
+      left:-80px;
+      font-size: 17px;
+    }
+    #t1{
+      position: absolute;
+      top: 28px;
+      left: 1300px;
+    }
+    #t2{
+      position: absolute;
+      top: 20px;
+      left: 1470px;
+      width:50px;
+      height:60px;
+    }
+     a{
+			text-decoration: none;
+			margin-right: 30px;
+			margin-top: 15px;
+			color: white;
+		}
+			h1{
+			color: rgb(250,240,255);
+		}
+		.a{
+			color: red;
+		}
+		
+		.img{
+			background-image: url(../../images/imagephoto/未标题-2.png);
+			width: 1700px;
+			height: 580px;
+			margin-top: -100px;
+			padding-top: 300px;
+			padding-left: 200px
+		}
+		.b{
+			width: 80px;
+			height: 2px;
+			background-color: red;
+			margin-top: -20px;
+		}
+		.bold{
+			color: white;
+			font-weight: bold;
+		}
+		.img1{
+			background-image: url(../../images/imagephoto/0400-健身食谱3_03_01.png);
+			background-repeat: no-repeat;
+			margin-left: 400px;
+			
+		}
+		.col{
+			margin-top:-350px;
+			color: black;
+			margin-left:610px;
+			position: relative;
+			top: 50px;
+
+		}
+		.bold1{
+			color: black;
+			font-weight: bold;
+			margin-left: 600px;
+			margin-top: 50px;
+			color: rgb(170,170,170);
+		}
+		.b1{width: 120px;
+			height: 3px;
+			background-color: rgb(155,65,74);
+			margin-top: -20px;
+			margin-left:600px;
+			position: relative;
+			top: 40px;
+			left: 15px;
+
+		}
+		.cmg{
+			width: 300px;
+			height: 300px;
+			background-image: url(../../images/imagephoto/0400-健身食谱3_03.png);
+			background-repeat: no-repeat;
+			display: inline-block;
+			vertical-align: bottom;
+		}
+		.cmg1{
+			width: 300px;
+			height: 300px;
+			background-image: url(../../images/imagephoto/0400-健身食谱4_03.png);
+			background-repeat: no-repeat;
+			display: inline-block;
+
+		}
+		.cmg2{
+			width: 300px;
+			height: 300px;
+			background-image: url(../../images/imagephoto/0400-健身食谱5_03.png);
+			background-repeat: no-repeat;
+			display: inline-block;
+		}
+		.cmg3{
+			width: 300px;
+			height: 300px;
+			background-image: url(../../images/imagephoto/0400-健身食谱6_03.png);
+			background-repeat: no-repeat;
+			display: inline-block;
+			vertical-align: bottom;
+		}
+		.phot{
+			position: relative;
+			top: 20px;
+			margin-left: 400px;
+		}
+		.zi{
+			color: white;
+			margin-top: 500px;
+			font-size: 15px;
+			font-weight: bold;
+			position: relative;
+			top:260px;
+			left: 8px;
+		}
+		.zi1{
+			color: white;
+			margin-top: 500px;
+			font-size: 15px;
+			font-weight: bold;
+			position: relative;
+			top:250px;
+			left: 8px;
+		}
+		.zi1:hover{
+			color:red;
+		}
+		.zi:hover{
+			color:red;
+		}
+		.img2{
+			width: 800px;
+			height: 400px;
+			background-image: url(../../images/imagephoto/0400-健身食谱7_03.png);
+			background-repeat: no-repeat;
+			margin-left: 1000px;
+			margin-top: -260px;
+		}
+		.col2{
+			color: black;
+			margin-left:400px;
+			position: relative;
+			top: 30px;
+
+
+		}
+		.bold2{
+			color: black;
+			font-weight: bold;
+			margin-left: 380px;
+			color: rgb(170,170,170);
+		}
+		.b2{
+		    width: 124px;
+			height: 3px;
+			background-color: rgb(155,65,74);
+			margin-left:410px;
+		}
+		.cmg4{
+			width: 300px;
+			height: 300px;
+			background-image: url(../../images/imagephoto/0400-健身食谱3_04.png);
+			background-repeat: no-repeat;
+			display: inline-block;
+			vertical-align: bottom;
+		}
+		.cmg5{
+			width: 300px;
+			height: 300px;
+			background-image: url(../../images/imagephoto/0400-健身食谱3_05.png);
+			background-repeat: no-repeat;
+			display: inline-block;
+
+		}
+		.cmg6{
+			width: 300px;
+			height: 300px;
+			background-image: url(../../images/imagephoto/0400-健身食谱3_06.png);
+			background-repeat: no-repeat;
+			display: inline-block;
+		}
+		.cmg7{
+			width: 300px;
+			height: 300px;
+			background-image: url(../../images/imagephoto/0400-健身食谱3_07.png);
+			background-repeat: no-repeat;
+			display: inline-block;
+		}
+		.title1{
+			width: 1200px;
+			height: 70px;
+			background-color: red;
+			margin-left: 390px;
+			
+			
+		}
+		.is{
+			position: relative;
+			top: 20px;
+			font-weight: bold;
+			font-size: 20px;
+			color: white;
+		}
+		.new{
+			width: 1500px;
+			height: 500px;
+			background-image: url(../../images/imagephoto/健身食谱.png);
+			background-repeat: no-repeat;
+			margin-left: 390px;
+		}
+	  .rgb1{
+   	        color: white;
+   	        text-decoration: none;
+   	        position: relative;
+   	        left: 80px;
+   	        
+ 
+   }
+      .rgb2{
+   	       color: white;
+           text-decoration: none;
+            margin-left: 250px;
+            margin-top:-20px;
+       	 
+   }
+      .foot{
+     	   width: 1550px;
+   	       height: 200px;
+   	       background-color: black; 
+   	       padding-top: 150px;
+   	       padding-left: 350px;
+   	       font-weight: bold;
+   }
+       body{
+   	    	padding: 0;
+        	margin:0;
+   	        min-width: 1800px;
+  			
+   }
+      .fang{
+            margin-top: 170px;
+            margin-left:1158px;
+   }
+      .fang1{
+            margin-top: -80px;
+            margin-right: 1010px;
+            position: relative;
+            top: -19px;
+            left: 26px;
+   }
+         .cc{
+            position: relative;
+            top: 150px;
+            left: 980px;
+   }
+        .cc1{
+           position: relative;
+           top: 150px;
+           left: -220px;
+   
+   }
+        .cbd{
+     	   position: relative;
+    	   top: 145px;
+    	   right: 20px;
+   }
+       .cbd1{
+   	    	 position: relative;
+   	        top: 138px;
+   	        left: -217px;
+   }

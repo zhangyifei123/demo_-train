@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+ <link rel="stylesheet" href="css/css.a/论坛图库.css">
+  <script>
+    var i =1;
+    window.onload = function(){
+    var prev = document.getElementById('previousPage');
+    var next = document.getElementById('nextPage');
+    var li = document.getElementById('page').children;
+    li[1].style.backgroundColor = "red";
+    prev.style.backgroundColor = 'gray';
+      prev.onclick = function(){
+        next.style.backgroundColor = 'transparent';
+        if(i==1){
+          prev.setAttribute('disabled','');
+          prev.style.backgroundColor = 'gray';
+        }else{
+          prev.removeAttribute('disabled');
+          prev.style.backgroundColor = 'transparent';
+          i--;
+          if(i == 1){
+            prev.setAttribute('disabled','');
+            prev.style.backgroundColor = 'gray';
+          }
+        }
+        li[i+1].style.backgroundColor = 'transparent';
+        li[i].style.backgroundColor = 'red';
+      }
+      next.onclick = function(){
+        prev.style.backgroundColor = 'transparent';
+        if(i == li.length-3){
+          next.setAttribute('disabled','');
+          next.style.backgroundColor = 'gray';  
+        }else{
+          next.removeAttribute('disabled');
+          next.style.backgroundColor = 'transparent';
+          i++;
+          if(i == li.length-3){
+            next.setAttribute('disabled','');
+            next.style.backgroundColor = 'gray';
+          }
+        }
+        li[i-1].style.backgroundColor = 'transparent';
+        li[i].style.backgroundColor = 'red';
+      }
+    }
+    function clickIt(ele){
+        var prev = document.getElementById('previousPage');
+        var next = document.getElementById('nextPage');
+        var li = document.getElementById('page').children;
+        for(var n = 1;n < li.length-2;n++){
+          if(ele == li[n]){
+            i = n;
+            ele.style.backgroundColor = 'red';
+          }else{
+            li[n].style.backgroundColor = 'transparent';
+          }
+        }
+        if(i == 1){
+          prev.style.backgroundColor = 'gray';
+          prev.setAttribute('disabled','');
+        }else{
+          prev.style.backgroundColor = 'transparent';
+          prev.removeAttribute('disabled');
+        }
+        if(i == li.length-3){
+          next.style.backgroundColor = 'gray';
+          next.setAttribute('disabled','');
+        }else{
+          next.style.backgroundColor = 'transparent';
+          next.removeAttribute('disabled');
+        }
+      }
+  </script>
+</head>
+<body>
+   <div id="nav">
+    
+    <span  id="nav1"> 
+      <a href="首页.html">首页</a>
+      <a href="减脂塑形.html"> 减脂塑形 </a>
+      <a href="增肌增重.html"> 增肌增重 </a>
+      <a href="训练计划.html"> 训练计划 </a>  
+      <a href="健身食谱.html" > 健身食谱 </a> 
+      <a href="新闻资讯.html"> 新闻资讯 </a>  
+      <a href="论坛图库.html" class="a"> 论坛图库 </a>
+      </span>
+      <span >&nbsp;&nbsp;&nbsp;
+      <a href="登录.html" class="t4"><!--  <img src="26.png" alt=""> -->登录</a>
+      <a href="注册.html" class="t4">注册<!-- <img src="27.png" alt=""> --></a>
+      </span>
+      <a href=""><img src="images/imagephoto/26a.png" alt="" id="t1"></a>
+      <a href="个人中心.html"><img src="images/imagephoto/27a.png" alt="" id="t2"></a>
+       </nav>
+</header>
+</div>
+    <div class="img">
+           
+           <div class="title">
+            <a href=""> <h1>图库论坛</h1></a>
+             <div class="b"></div>
+             
+             <br>
+             <br>
+                       <div class="bold">
+                       &nbsp;对于减肥来说，并没有一种理想的碳水化合物，蛋白质和脂肪的组合。<br><br>&nbsp;不过，大多数专家建议平衡膳食，即从蛋白质中获取15%~20%的热<br><br>&nbsp;量，从脂肪中获取15%~20%的热量，其余热量从复合碳水化合物中获取。<br><br>&nbsp;杜绝（或减少）空热量的摄入，这些饮食并不能提供你所需的营养，<br><br>&nbsp;例如碳酸饮料，酒精和糖果。
+                       </div>
+           </div>
+    </div>
+     <h3>当前位置：图库论坛</h3>
+     <br>
+     <br>
+     <br>
+     <br>
+     <div class="col"><a href="图库专区.html"><span class="lol">图库专区</span></a></div>
+     <br>
+     <br>
+     <br>
+     <div>
+            <div class="img1"></div>
+            <div class="img2"></div>
+            <div class="img3"></div>
+            <div class="img4"></div>
+            <div class="img5"></div>
+            <div class="boll">
+                <span class="cc">
+                     凡事有其自然，<br><br>&nbsp;遇事处置泰然，得意之时淡然，<br><br>&nbsp;失意之时坦然，越忙越要抽空练，<br><br>&nbsp;练好身体保健；<br><br>&nbsp;
+                </span>
+           </div>
+     </div>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+      <div class="coll"><a href=".论坛专区.html"><span class="loll">论坛专区</span></a></div>
+      <br>
+      <br>
+      <br>
+      <div id = "a">
+          <div class="Comments">
+      <a href=""> <img src="images/imagephoto/0500-论坛图库a_03.png" alt=""></a>
+       <div class="com1">
+                 <div class="god">
+
+           签到交流<span class="coo">(200)</span><br><br>&nbsp;主题：56000，帖数：6万<br><br>&nbsp;最后发表：2017-3-9 10:24
+
+                 </div>
+           </div>      	  
+       </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div id = "a">
+          <div class="Comments">
+      <a href=""> <img src="images/imagephoto/0500-论坛图库b_03.png" alt=""></a>
+       <div class="com1">
+          
+                  <div class="god">
+                   健身日志<br><br>&nbsp;主题：56000，帖数：6万<br><br>&nbsp;最后发表：2017-3-9 10:24
+
+                  </div>
+           </div>      	  
+       </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div id = "a">
+          <div class="Comments">
+       <a href=""><img src="images/imagephoto/0500-论坛图库c_03.png" alt=""></a>
+       <div class="com1">
+          
+                  <div class="god">
+                   健友秀场<br><br>&nbsp;主题：56000，帖数：6万<br><br>&nbsp;最后发表：2017-3-9 10:24
+
+                  </div>
+           </div>      	  
+       </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id = "a">
+          <div class="Comments">
+      <a href=""><img src="images/imagephoto/0500-论坛图库d_03.png" alt=""></a>
+       <div class="com1">
+          
+                  <div class="god">
+                   减脂专版<br><br>&nbsp;主题：56000，帖数：6万<br><br>&nbsp;最后发表：2017-3-9 10:24
+
+                  </div>
+           </div>      	  
+       </div>
+       <br>
+          <br>
+         <br>
+         <br>
+      <div class="cdd">
+    <ul id="page">
+    <li id="previousPage">上一页</li>
+    <li id="page1" onclick="clickIt(this)">1</li>
+    <li id="page2" onclick="clickIt(this)">2</li>
+    <li id="page3" onclick="clickIt(this)">3</li>
+    <li id="page4" onclick="clickIt(this)">4</li>
+    <li id="page5" onclick="clickIt(this)">5</li>
+    <li id="abc">...</li>
+    <li id="nextPage">下一页</li>
+  </ul>
+      </div>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <footer >
+   <div class="foot">
+                  
+         <a href="" class="rgb1">广告服务</a>
+         <a href=""  class="rgb1">关于我们</a>
+         <a href=""  class="rgb1">sitemap</a>
+         <a href=""  class="rgb1">联系方式</a>
+         <a href=""  class="rgb1">友情链接</a>
+         <a href=""  class="rgb1">媒体中心</a>
+         <a href=""  class="rgb1">sitemapxml</a>
+         <a href=""  class="rgb1">公司资质</a>
+         <a href=""  class="rgb1">加入我们</a>
+         <br>
+         <br>
+         <br>
+         <p class="rgb2">Copyright 2013 muscles.com.cn 版权所有 蜀ICP备13017676号-1</p>
+ </div>
+
+ </footer>
+</body>
+</html>

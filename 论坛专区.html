@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+  <link rel="stylesheet" href="css/css.a/论坛专区.css">
+  <script>
+    var i =1;
+    window.onload = function(){
+    var prev = document.getElementById('previousPage');
+    var next = document.getElementById('nextPage');
+    var li = document.getElementById('page').children;
+    li[1].style.backgroundColor = "red";
+    prev.style.backgroundColor = 'gray';
+      prev.onclick = function(){
+        next.style.backgroundColor = 'transparent';
+        if(i==1){
+          prev.setAttribute('disabled','');
+          prev.style.backgroundColor = 'gray';
+        }else{
+          prev.removeAttribute('disabled');
+          prev.style.backgroundColor = 'transparent';
+          i--;
+          if(i == 1){
+            prev.setAttribute('disabled','');
+            prev.style.backgroundColor = 'gray';
+          }
+        }
+        li[i+1].style.backgroundColor = 'transparent';
+        li[i].style.backgroundColor = 'red';
+      }
+      next.onclick = function(){
+        prev.style.backgroundColor = 'transparent';
+        if(i == li.length-3){
+          next.setAttribute('disabled','');
+          next.style.backgroundColor = 'gray';  
+        }else{
+          next.removeAttribute('disabled');
+          next.style.backgroundColor = 'transparent';
+          i++;
+          if(i == li.length-3){
+            next.setAttribute('disabled','');
+            next.style.backgroundColor = 'gray';
+          }
+        }
+        li[i-1].style.backgroundColor = 'transparent';
+        li[i].style.backgroundColor = 'red';
+      }
+    }
+    function clickIt(ele){
+        var prev = document.getElementById('previousPage');
+        var next = document.getElementById('nextPage');
+        var li = document.getElementById('page').children;
+        for(var n = 1;n < li.length-2;n++){
+          if(ele == li[n]){
+            i = n;
+            ele.style.backgroundColor = 'red';
+          }else{
+            li[n].style.backgroundColor = 'transparent';
+          }
+        }
+        if(i == 1){
+          prev.style.backgroundColor = 'gray';
+          prev.setAttribute('disabled','');
+        }else{
+          prev.style.backgroundColor = 'transparent';
+          prev.removeAttribute('disabled');
+        }
+        if(i == li.length-3){
+          next.style.backgroundColor = 'gray';
+          next.setAttribute('disabled','');
+        }else{
+          next.style.backgroundColor = 'transparent';
+          next.removeAttribute('disabled');
+        }
+      }
+  </script>
+</head>
+<body>
+  <div id="nav">
+    
+    <span  id="nav1"> 
+      <a href="首页.html">首页</a>
+      <a href="减脂塑形.html"> 减脂塑形 </a>
+      <a href="增肌增重.html"> 增肌增重 </a>
+      <a href="训练计划.html"> 训练计划 </a>  
+      <a href="健身食谱.html"> 健身食谱 </a> 
+      <a href="新闻资讯.html"> 新闻资讯 </a>  
+      <a href="论坛图库.html" class="a"> 论坛图库 </a>
+      </span>
+      <span id="t4">&nbsp;&nbsp;&nbsp;
+      <a href="登录.html"><!--  <img src="26.png" alt=""> -->登录</a>
+      <a href="注册.html">注册<!-- <img src="27.png" alt=""> --></a>
+      </span>
+      <a href=""><img src="images/imagephoto/26a.png" alt="" id="t1"></a>
+      <a href="个人中心.html"><img src="images/imagephoto/27a.png" alt="" id="t2"></a>
+       </nav>
+</header>
+</div>
+    <div class="img">
+           
+           <div class="title">
+             <h1><a href="">论坛专区</a></h1>
+             <div class="b"></div>
+             
+             <br>
+             <br>
+                       <div class="bold">
+                       &nbsp;我们秉承平等，尊重，分享优秀的事例，友善讨论<br><br>&nbsp;凡事有其自然遇事处之泰然，<br><br>&nbsp;得意之时淡然，失意之时坦然，越忙越要抽空练<br><br>&nbsp;练好身体长保健：决心信心加恒心修炼身心意志坚
+                       </div>
+           </div>
+    </div>
+    <h3>当前位置：论坛专区</h3>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id = "a">
+        <div class="Comment">
+       <img src="images/imagephoto/论坛专区详情.jpg" alt="">
+       <div class="cent">橡皮章吧</div>
+       <input type="button" class="value" value="+关注">
+       <div class="com">
+          
+             我刚才在考拉买东西时候发现的声明，大家都要小心啊！<br><br>&nbsp;貌似这是我的第一个帖子？？？
+           
+       </div>
+       		<div id ="title">
+			        关注：<span class="col">454565</span>
+			        &nbsp;
+			        &nbsp;
+			        帖子：<span class="col">13,454,879</span>
+       	    </div>
+       	    <div id="dds">
+       	              <span class="col">154</span>回复贴，共<span class="col">1</span>项
+       	    </div>
+       	   
+
+        </div>
+        <br>
+        <br>
+         <div class="mot"></div>
+         
+    </div>
+     <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id = "a">
+        <div class="Comments">
+       <img src="images/imagephoto/论坛专区详情1.jpg" alt="">
+       <div class="cent">太空之城</div>
+       <div class="com1">
+          
+           当今体育产业市场环境及其复杂，社会供给不规范的现象大量存在，在体育产业中室内健身器材<br><br>&nbsp;的消费占据很大的比重。但是室内健身器材报价千差万别，作为普通百姓，<br><br>&nbsp;实现3万亿大梦的主体，我们在这方面是没有任何一点点的引导，在室内健身器材报价发面，<br><br>&nbsp;我们就是在摸着石头过河。如何规划室内健身器材<br><br>&nbsp;报价，应该引起相关部门重视，规范室内健身器材报价是优化市场环境中必不可少的环节，<br><br>&nbsp;间接的对于扩大社会供给<br><br>&nbsp;--------------------------<br><br>&nbsp;和引导体育消费起到不可或缺的作用。
+
+       </div>
+       
+       	    <div id="dds">
+       	             
+       	             <span>2017-3-6 11.22</span>
+       	             <span><b>回复</b></span>
+       	    </div>
+       	   
+
+        </div>
+        <br>
+        <br>
+         <div class="mot"></div>
+         
+    </div>
+     <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id = "a">
+        <div class="Commentss">
+       <img src="images/imagephoto/论坛专区详情2.jpg" alt="">
+       <div class="cent">shocku992</div>
+       <div class="com1">
+          
+              当今体育产业市场环境及其复杂，社会供给不规范的现象大量存在，在体育产业中室内健身器材<br><br>&nbsp;的消费占据很大的比重。但是室内健身器材报价千差万别，作为普通百姓，<br><br>&nbsp;实现3万亿大梦的主体，我们在这方面是没有任何一点点的引导，在室内健身器材报价发面，<br><br>&nbsp;我们就是在摸着石头过河。如何规划室内健身器材<br><br>&nbsp;报价，应该引起相关部门重视，规范室内健身器材报价是优化市场环境中必不可少的环节，<br><br>&nbsp;间接的对于扩大社会供给<br><br>&nbsp;--------------------------<br><br>&nbsp;和引导体育消费起到不可或缺的作用。
+           
+       </div>
+       		
+       	    <div id="dds">
+       	             
+       	             <span>2017-3-6 11.22</span>
+       	             <span><b>回复</b></span>
+       	    </div>
+       	   
+
+        </div>
+        <br>
+        <br>
+         <div class="mot"></div>
+         
+    </div>
+     <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id = "a">
+        <div class="Commente">
+       <img src="images/imagephoto/论坛专区详情3.jpg" alt="">
+       <div class="cent">流氓兔</div>
+       <div class="com1">
+          
+             当今体育产业市场环境及其复杂，社会供给不规范的现象大量存在，在体育产业中室内健身器材<br><br>&nbsp;的消费占据很大的比重。但是室内健身器材报价千差万别，作为普通百姓，<br><br>&nbsp;实现3万亿大梦的主体，我们在这方面是没有任何一点点的引导，在室内健身器材报价发面，<br><br>&nbsp;我们就是在摸着石头过河。如何规划室内健身器材<br><br>&nbsp;报价，应该引起相关部门重视，规范室内健身器材报价是优化市场环境中必不可少的环节，<br><br>&nbsp;间接的对于扩大社会供给<br><br>&nbsp;--------------------------<br><br>&nbsp;和引导体育消费起到不可或缺的作用。
+       </div>
+       		
+       	     <div id="dds">
+       	             
+       	             <span>2017-3-6 11.22</span>
+       	             <span><b>回复</b></span>
+       	    </div>
+       	   
+
+        </div>
+        <br>
+        <br>
+         <div class="mot"></div>
+         
+    </div>
+     <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id = "a">
+        <div class="Commentee">
+       <img src="images/imagephoto/论坛专区详情4.jpg" alt="">
+       <div class="cent">记忆的沙漏</div>
+       <div class="com1">
+          
+             当今体育产业市场环境及其复杂，社会供给不规范的现象大量存在，在体育产业中室内健身器材<br><br>&nbsp;的消费占据很大的比重。但是室内健身器材报价千差万别，作为普通百姓，<br><br>&nbsp;实现3万亿大梦的主体，我们在这方面是没有任何一点点的引导，在室内健身器材报价发面，<br><br>&nbsp;我们就是在摸着石头过河。如何规划室内健身器材<br><br>&nbsp;报价，应该引起相关部门重视，规范室内健身器材报价是优化市场环境中必不可少的环节，<br><br>&nbsp;间接的对于扩大社会供给<br><br>&nbsp;--------------------------<br><br>&nbsp;和引导体育消费起到不可或缺的作用。
+           
+       </div>
+       	     <div id="dds">
+       	             
+       	             <span>2017-3-6 11.22</span>
+       	             <span><b>回复</b></span>
+       	    </div>
+       	   
+
+        </div>
+        <br>
+        <br>
+         <div class="mot"></div>
+         <br>
+         <br>
+         <br>
+       <div class="cdd">
+    <ul id="page">
+    <li id="previousPage">上一页</li>
+    <li id="page1" onclick="clickIt(this)">1</li>
+    <li id="page2" onclick="clickIt(this)">2</li>
+    <li id="page3" onclick="clickIt(this)">3</li>
+    <li id="page4" onclick="clickIt(this)">4</li>
+    <li id="page5" onclick="clickIt(this)">5</li>
+    <li id="abc">...</li>
+    <li id="nextPage">下一页</li>
+  </ul>
+      </div>
+       <br>
+       <br>
+       <br>
+       <div class="soid">
+          <textarea cols="120" rows="10" placeholder="请输入发布内容"></textarea>
+          <input type="button" value="发布"  class="selt">
+       </div>
+         
+    </div>
+    <br>
+<br>
+<br>
+<br>
+<footer >
+   <div class="foot">
+                  
+         <a href="" class="rgb1">广告服务</a>
+         <a href=""  class="rgb1">关于我们</a>
+         <a href=""  class="rgb1">sitemap</a>
+         <a href=""  class="rgb1">联系方式</a>
+         <a href=""  class="rgb1">友情链接</a>
+         <a href=""  class="rgb1">媒体中心</a>
+         <a href=""  class="rgb1">sitemapxml</a>
+         <a href=""  class="rgb1">公司资质</a>
+         <a href=""  class="rgb1">加入我们</a>
+         <br>
+         <br>
+         <br>
+         <p class="rgb2">Copyright 2013 muscles.com.cn 版权所有 蜀ICP备13017676号-1</p>
+ </div>
+
+ </footer>
+</body>
+</html>

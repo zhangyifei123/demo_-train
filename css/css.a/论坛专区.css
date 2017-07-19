@@ -1,0 +1,287 @@
+ ul{
+
+      margin:0;
+      padding:0;
+      list-style-type: none;
+      overflow: hidden;
+    }
+    li{  
+      float:left;
+      padding:20px;
+      border:1px solid rgb(170,170,170);
+      margin:0 20px;
+      cursor:pointer;
+    }
+    .cdd{
+      margin-left: 550px;
+    }
+      #nav{
+      width: 1890px;
+      height: 100px;
+      border: 1px solid black;
+      
+      background-image: url(../../images/imagephoto/24.png);
+    }
+    #nav1{
+      
+      padding-left:530px;
+      line-height: 80px;
+      
+    } 
+    #nav1 a{
+       font-size: 17px;
+    }
+    #nav1 a:hover{
+        color: red;
+    }
+      #t1{
+           width: 20px;
+          height: 20px;
+           position: absolute;
+           top: 32px;
+           left: 1255px;
+        }
+        #t2{
+          width: 20px;
+          height: 20px;
+           position: absolute;
+           top: 30px;
+           left: 1430px;
+        }
+        #t4 a:hover{
+           color:red;
+        }
+		 a{
+			text-decoration: none;
+			margin-right: 30px;
+	
+			margin-top: 15px;
+			color: white;
+		}
+	  .a{
+      color: red;
+    }
+		.img{
+			background-image: url(../../images/imagephoto/论坛专区.png);
+			width: 1695px;
+			height: 580px;
+			margin-top: -100px;
+			padding-top: 300px;
+			padding-left: 200px
+		}
+		h1{
+			color: white;
+		}
+		.b{
+			width: 80px;
+			height: 2px;
+			background-color: red;
+			margin-top: -20px;
+		}
+		.bold{
+			color: white;
+			font-weight: bold;
+		}
+		h3{
+			margin-top: -60px;
+			margin-left: 400px;
+			color: rgb(170,170,170);
+		}
+		.Comment{
+			background-image: url(../../images/imagephoto/论坛专区详情.jpg);
+			background-repeat: no-repeat;
+			margin-left:400px;
+		}
+		.Comments{
+			background-image: url(../../images/imagephoto/论坛专区详情1.jpg);
+			background-repeat: no-repeat;
+			margin-left:400px;
+		}
+			.Commentss{
+			background-image: url(../../images/imagephoto/论坛专区详情2.jpg);
+			background-repeat: no-repeat;
+			margin-left:400px;
+		}
+			.Commente{
+			background-image: url(../../images/imagephoto/论坛专区详情3.jpg);
+			background-repeat: no-repeat;
+			margin-left:400px;
+		}
+			.Commentee{
+			background-image: url(../../images/imagephoto/论坛专区详情4.jpg);
+			background-repeat: no-repeat;
+			margin-left:400px;
+		}
+		.a{
+			position: relative;
+		}
+		#title{
+			position: absolute;
+			top:960px;
+			left:1200px;
+		}
+		.com{
+            margin-top: -100px;
+            margin-left: 200px;
+            font-size: 20px;
+            font-weight:bold;
+		}
+		.com1{
+            margin-top: -100px;
+            margin-left: 200px;
+            color: rgb(170,170,170);
+            font-weight:bold;
+		}
+		.cent{
+			color: rgb(170,170,170);
+			margin-left: 30px;
+		}
+		.value{
+			width: 100px;
+			height: 40px;
+			background-color: rgb(255,123,124);
+			border-radius:8px;
+			margin-left: 20px;
+			font-weight: bold;
+			font-size: 20px;
+			color: white;
+		}
+		.col{
+			color: red;
+		}
+		#dds{
+			margin-left: 950px;
+		}
+		.mot{
+			width: 1200px;
+			height: 1px;
+			border: 1px solid rgb(170,170,170);
+			background-color: rgb(170,170,170);
+			margin-left: 350px;
+		}
+		
+       .soid{
+       	margin-left: 520px;
+       }
+       .selt{
+       	width: 100px;
+       	height: 40px;
+       	background-color: rgb(215,64,65);
+       	color: white;
+       
+       	font-size: 15px;
+
+       }
+    .rgb1{
+            color: white;
+            text-decoration: none;
+            position: relative;
+            left: 80px;
+            
+ 
+   }
+      .rgb2{
+           color: white;
+           text-decoration: none;
+            margin-left: 300px;
+            margin-top:-20px;
+         
+   }
+      .foot{
+         width: 1552px;
+           height: 200px;
+           background-color: black; 
+           padding-top: 150px;
+           padding-left: 350px;
+           font-weight: bold;
+   }
+    .previous_page,.next_page{
+           border:1px solid rgb(223,223,223);
+           width:70px;
+           height:50px;
+           text-align: center;
+           line-height: 50px;
+       }
+       
+    .one_page{
+           width:40px;
+           height:50px;
+           text-align: center;
+           line-height: 50px;
+           
+       }
+       .one_page:hover{
+             background-color: red;
+       }
+       .two_page{
+             width:40px;
+           height:50px;
+           text-align: center;
+           line-height: 50px;
+       }
+     .two_page:hover{
+           background-color: red;
+       }
+      .three_page{
+           width:40px;
+           height:50px;
+           text-align: center;
+           line-height: 50px;
+         
+       }
+       .three_page:hover{
+         background-color: red;
+       }
+       .four_page{
+         width:40px;
+           height:50px;
+           text-align: center;
+           line-height: 50px;
+            
+       }
+       .four_page:hover{
+        background-color: red;
+       }
+       .five_page{
+           width:40px;
+           height:50px;
+           text-align: center;
+           line-height: 50px;;
+       }
+       .fourteen_page{
+           width:40px;
+           height:50px;
+           text-align: center;
+           line-height: 50px;
+       }
+        .fourteen_page:hover{
+            background-color: red;
+        }
+       .page1,.page2{
+           width:40px;
+           height:50px;
+           text-align: center;
+           line-height: 50px;
+       }
+       #pages input,.page3{
+           border:1px solid rgb(223,223,223);
+           width:40px;
+           height:50px;
+           text-align: center;
+           line-height: 50px;
+       }
+       table li{
+          float:left;
+          margin-left: 30px;
+          list-style-type:none;
+
+       }
+       .wid{
+        margin-left: 400px;
+       }
+       body{
+        padding: 0;
+        margin:0;
+        min-width:1890px;
+       }
+

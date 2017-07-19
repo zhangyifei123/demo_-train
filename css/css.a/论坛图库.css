@@ -1,0 +1,346 @@
+ ul{
+
+      margin:0;
+      padding:0;
+      list-style-type: none;
+      overflow: hidden;
+    }
+    li{  
+      float:left;
+      padding:20px;
+      border:1px solid rgb(170,170,170);
+      margin:0 20px;
+      cursor:pointer;
+    }
+    .cdd{
+      margin-left: 600px;
+    }
+	 #nav{
+           width: 1890px;
+           height: 100px;
+           background-image: url(../../images/imagephoto/图库论坛.png);
+        }
+         #nav1{
+           padding-left: 530px;
+           line-height: 100px;
+        } 
+         #nav1 a{
+            font-size: 17px;
+         }
+         #nav1 a:hover{
+              color:red;
+         }
+         #t1{
+           width: 20px;
+           height: 20px;
+           position: absolute;
+           top: 40px;
+           left: 1260px;
+        }
+        .t4:hover{
+            color:red;
+        }
+        #t2{
+          width: 20px;
+          height: 20px;
+           position: absolute;
+           top: 40px;
+           left: 1425px;
+        }
+          a{
+			text-decoration: none;
+			margin-right: 30px;
+			margin-top: 15px;
+			color: white;
+		}
+	     h1{
+			color: rgb(250,240,255);
+		}
+	    .a{
+			color: red;
+		 }
+		
+		.img{
+			background-image: url(../../images/imagephoto/图库论坛.png);
+			width: 1695px;
+			height: 560px;
+			margin-top: -100px;
+			padding-top: 300px;
+			padding-left: 200px
+		}
+		.b{
+			width: 80px;
+			height: 2px;
+			background-color: red;
+			margin-top: -20px;
+		}
+		.bold{
+			color: white;
+			font-weight: bold;
+		}
+		h3{
+			margin-top: -60px;
+			margin-left: 400px;
+			color: rgb(170,170,170);
+		}
+		.col{
+			width: 1200px;
+			height: 50px;
+			border:1px solid rgb(50,49,63);
+			background-color: rgb(50,49,63);
+			margin-left: 350px;
+		}
+    .col a{
+      text-decoration: none;
+    }
+		.lol{
+			color: white;
+			font-size: 20px;
+			font-weight: bold;
+			position: relative;
+			top: 15px;
+			left: 10px;
+		}
+		.img1{
+			width: 300px;
+			height: 800px;
+           background-image: url(../../images/imagephoto/0500-论坛图库_03.png);
+           	background-repeat: no-repeat;
+			margin-left:400px;
+			display: inline-block;
+		}
+			.img2{
+			width: 300px;
+			height: 800px;
+           background-image: url(../../images/imagephoto/0500-论坛图库1_03.png);
+           	background-repeat: no-repeat;
+			margin-left:550px;
+			display: inline-block;
+		}
+			.img3{
+			width: 300px;
+			height: 800px;
+            background-image: url(../../images/imagephoto/0500-论坛图库2_06.png);
+           	background-repeat: no-repeat;
+			margin-left:1260px;
+			margin-top:-500px;
+			
+		}
+			.img4{
+			width: 300px;
+			height: 800px;
+            background-image: url(../../images/imagephoto/0500-论坛图库2_06.png);
+           	background-repeat: no-repeat;
+			margin-left:900px;
+			margin-top:-1106px;
+			
+		}
+		.img5{
+			width: 300px;
+			height: 800px;
+            background-image: url(../../images/imagephoto/0500-论坛图库1_03.png);
+           	background-repeat: no-repeat;
+			margin-left:900px;
+			margin-top:-496px;
+			
+		}
+		.boll{
+			width: 200px;
+			height: 200px;
+			border: 1px solid rgb(50,49,63);
+			border-radius: 150px;
+			background-color: rgb(50,49,63);
+			margin-left:780px;
+			margin-top:-915px;
+		}
+		.cc{
+			color: white;
+			font-size: 10px;
+			font-weight: bold;
+			position: relative;
+			top: 20px;
+			left: 12px;
+		}
+		.coll{
+			width: 1200px;
+			height: 50px;
+			border:1px solid rgb(50,49,63);
+			background-color: rgb(50,49,63);
+			margin-left: 350px;
+			margin-top: 150px;
+		}
+		.loll{
+			color: white;
+			font-size: 20px;
+			font-weight: bold;
+			position: relative;
+			top: 15px;
+			left: 10px;
+		}
+		.Comment{
+			background-image: url(../../images/imagephoto/0500-论坛图库a_03.png);
+			background-repeat: no-repeat;
+		    margin-left:500px;
+
+		
+		}
+		.Comments{
+			background-image: url(../../images/imagephoto/0500-论坛图库b_03.png);
+			background-repeat: no-repeat;
+			margin-left:500px;
+			
+		}
+			.Commentss{
+			background-image: url(../../images/imagephoto/0500-论坛图库c_03.png);
+			background-repeat: no-repeat;
+			margin-left:400px;
+		}
+			.Commente{
+			background-image: url(../../images/imagephoto/0500-论坛图库d_03.png);
+			background-repeat: no-repeat;
+			margin-left:400px;
+		}
+			.a{
+			position: relative;
+		}
+		#title{
+			position: absolute;
+			top:960px;
+			left:1200px;
+		}
+		.com{
+            margin-top: -100px;
+            margin-left: 200px;
+            font-size: 20px;
+            font-weight:bold;
+		}
+		.com1{
+			width: 690px;
+			height: 190px;
+			border: 1px solid rgb(247,247,247);
+            margin-top: -200px;
+            margin-left: 250px;
+            color: rgb(170,170,170);
+            font-weight:bold;
+            background-color: rgb(247,247,247);
+        }
+        .coo{
+        	color: red;
+        }
+        .god{
+        	position: relative;
+        	top: 40px;
+        	left: 150px;
+        }
+         .previous_page,.next_page{
+           border:1px solid rgb(223,223,223);
+           width:70px;
+           height:50px;
+           text-align: center;
+           line-height: 50px;
+       }
+       
+    .one_page{
+           width:40px;
+           height:50px;
+           text-align: center;
+           line-height: 50px;
+           
+       }
+       .one_page:hover{
+             background-color: red;
+       }
+       .two_page{
+             width:40px;
+           height:50px;
+           text-align: center;
+           line-height: 50px;
+       }
+     .two_page:hover{
+           background-color: red;
+       }
+      .three_page{
+           width:40px;
+           height:50px;
+           text-align: center;
+           line-height: 50px;
+         
+       }
+       .three_page:hover{
+         background-color: red;
+       }
+       .four_page{
+         width:40px;
+           height:50px;
+           text-align: center;
+           line-height: 50px;
+            
+       }
+       .four_page:hover{
+        background-color: red;
+       }
+       .five_page{
+           width:40px;
+           height:50px;
+           text-align: center;
+           line-height: 50px;;
+       }
+       .fourteen_page{
+           width:40px;
+           height:50px;
+           text-align: center;
+           line-height: 50px;
+       }
+        .fourteen_page:hover{
+            background-color: red;
+        }
+       .page1,.page2{
+           width:40px;
+           height:50px;
+           text-align: center;
+           line-height: 50px;
+       }
+       #pages input,.page3{
+           border:1px solid rgb(223,223,223);
+           width:40px;
+           height:50px;
+           text-align: center;
+           line-height: 50px;
+       }
+       table li{
+          float:left;
+          margin-left: 30px;
+          list-style-type:none;
+
+       }
+       .wid{
+        margin-left: 400px;
+       }
+       .rgb1{
+            color: white;
+            text-decoration: none;
+            position: relative;
+            left: 80px;
+            
+ 
+   }
+      .rgb2{
+           color: white;
+           text-decoration: none;
+            margin-left: 300px;
+            margin-top:-20px;
+         
+   }
+      .foot{
+         width: 1552px;
+           height: 200px;
+           background-color: black; 
+           padding-top: 150px;
+           padding-left: 350px;
+           font-weight: bold;
+   }
+   body{
+      padding: 0;
+        margin:0;
+   	min-width: 1890px;
+   }

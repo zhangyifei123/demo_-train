@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+  <link rel="stylesheet" href="css/注册.css">
+</head>
+<body>
+<header>
+    <div id="logo">
+        <img src="images/image/l.png" alt="">
+        <div id="cover">
+             <div id="black"></div>
+             <form action="">
+             <table>
+                 <tr>
+                 	<td><span class="size1">注册</span><a href="首页.html" class="return">返回首页>></a></td>
+                 </tr>
+                 <tr>
+                 	 <td><input type="text" placeholder="请输入您的手机号" class="head1"></td>
+                 </tr>
+                 <tr>
+                   <td> 
+                      <input type="text" placeholder="请输入验证码" class="obtain">
+                      <a href="验证码.html" class="red3">点击获取手机验证码</a>
+                   </td>
+                 </tr>
+                 <tr>
+                 	 <td> <input type="text" placeholder="请设置您的密码" class="head2"></td>
+                 </tr>
+                 <tr>
+                   <td>
+                      <input type="button" class="red2" value="注册" onclick="fun()">
+                  </td>
+                 </tr>
+                 <tr>
+                 	 <td></td>
+                 </tr>
+             </table>
+             </form>
+        </div>
+    	<div class="foot">    
+           <a href="" class="rgb1">广告服务</a>
+           <a href=""  class="rgb1">关于我们</a>
+           <a href=""  class="rgb1">sitemap</a>
+           <a href=""  class="rgb1">联系方式</a>
+           <a href=""  class="rgb1">友情链接</a>
+           <a href=""  class="rgb1">媒体中心</a>
+           <a href=""  class="rgb1">sitemapxml</a>
+           <a href=""  class="rgb1">公司资质</a>
+           <a href=""  class="rgb1">加入我们</a>
+           <br>
+           <br>
+           <br>
+           <a class="rgb2">Copyright 2013 muscles.com.cn 版权所有 蜀ICP备13017676号-1</a>
+       </div>
+    </div>
+</header>
+<script>
+    var a = document.querySelectorAll("input")[0];
+    var b = document.querySelectorAll("input")[1];
+    var c = document.querySelectorAll("input")[2];
+    var form = document.forms[0];
+    function fun(){
+      if(a.value.length == 0){
+        a.focus();
+      }else if(b.value.length == 0){
+        b.focus();
+      }else if(c.value.length==0){
+        c.focus();
+      }else{
+          form.submit();
+      }
+    }
+  </script>   
+</body>
+</html>
